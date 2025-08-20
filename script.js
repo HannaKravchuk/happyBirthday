@@ -19,12 +19,12 @@ setTimeout(() => {
     hintEl.classList.add('hide');
     hintEl.setAttribute('aria-hidden', 'true');
   }
-}, 5000);
+}, 3000);
 
 function playTrack() {
   if (trackEl) {
     trackEl.currentTime = 0;
-    trackEl.volume = 0.35; // громкость (0..1)
+    trackEl.volume = 0.35;
     trackEl.play().catch(() => { try { playBirthday(); } catch {} });
   } else {
     try { playBirthday(); } catch {}
