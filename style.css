@@ -134,7 +134,7 @@ body.dark .hint {
   width: 86%;
   height: 58%;
   background: var(--cake);
-  border-radius: 24px;
+  border-radius: 12px;
   box-shadow: inset 0 -22px 0 var(--shadow), inset 0 -44px 0 rgba(0, 0, 0, 0.25),
     0 10px 30px rgba(0, 0, 0, 0.25);
 }
